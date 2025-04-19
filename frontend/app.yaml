@@ -1,5 +1,5 @@
 runtime: nodejs20
-service: frontend-193  
+service: frontend-193
 instance_class: F1
 
 handlers:
@@ -11,4 +11,4 @@ handlers:
     static_files: build/\1
     upload: build/(.*)
 
-default_expiration: "1h"
+default_expiration: "1h"
