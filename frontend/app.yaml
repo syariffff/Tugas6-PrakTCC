@@ -3,7 +3,7 @@ service: frontend-syarif
 instance_class: F1
 
 handlers:
-  - url: /login
+  - url: /
     static_files: build/index.html
     upload: build/index.html
 
